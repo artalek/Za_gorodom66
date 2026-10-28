@@ -821,7 +821,12 @@ html::-webkit-scrollbar {
   display:block;
   padding:0;
   border:0;
-  background:none;
+  background:transparent;
+  appearance:none;
+  -webkit-appearance:none;
+  border-radius:0;
+  box-shadow:none;
+  -webkit-text-fill-color:currentColor;
   color:#f8f7ee;
   font-size:calc(13 * var(--unit));
   font-weight:600;
@@ -830,17 +835,21 @@ html::-webkit-scrollbar {
 }
 .copy-phone:hover, .write-us:hover { color:var(--accent); }
 .social-links {
-  display:flex;
-  flex-wrap:nowrap;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
   align-items:center;
-  gap:calc(8 * var(--unit));
+  justify-items:center;
+  width:100%;
+  max-width:calc(240 * var(--unit));
+  gap:calc(6 * var(--unit));
   margin-top:calc(10 * var(--unit));
 }
 .social-links a {
   display:grid;
   place-items:center;
-  width:calc(34 * var(--unit));
-  height:calc(34 * var(--unit));
+  width:100%;
+  max-width:calc(40 * var(--unit));
+  aspect-ratio:1;
   flex-shrink:0;
   border:1px solid #d1d8c74d;
   border-radius:50%;
@@ -864,8 +873,8 @@ html::-webkit-scrollbar {
   .write-us { font-size:15px; min-height:32px; margin-bottom:8px; }
   .write-us .icon { width:22px; height:22px; }
   .copy-phone { font-size:21px; min-height:44px; }
-  .social-links { gap:12px; margin-top:14px; }
-  .social-links a { width:46px; height:46px; }
+  .social-links { gap:12px; margin-top:14px; max-width:260px; }
+  .social-links a { width:100%; max-width:52px; min-height:44px; }
   .social-links .icon { width:23px; height:23px; }
   .copy-status { font-size:12px; min-height:18px; margin-top:9px; }
 }
