@@ -836,7 +836,7 @@ html::-webkit-scrollbar {
 .copy-phone:hover, .write-us:hover { color:var(--accent); }
 .social-links {
   display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
+  grid-template-columns:repeat(5,minmax(0,1fr));
   align-items:center;
   justify-items:center;
   width:100%;
@@ -873,7 +873,7 @@ html::-webkit-scrollbar {
   .write-us { font-size:15px; min-height:32px; margin-bottom:8px; }
   .write-us .icon { width:22px; height:22px; }
   .copy-phone { font-size:21px; min-height:44px; }
-  .social-links { gap:12px; margin-top:14px; max-width:260px; }
+  .social-links { gap:10px; margin-top:14px; max-width:300px; }
   .social-links a { width:100%; max-width:52px; min-height:44px; }
   .social-links .icon { width:23px; height:23px; }
   .copy-status { font-size:12px; min-height:18px; margin-top:9px; }
