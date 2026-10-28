@@ -1,0 +1,7 @@
+# Local exports and previews are regenerated from the source.
+*.zip
+preview.jpg
+.DS_Store
+Thumbs.db
+.env
+.env.*
