@@ -795,6 +795,80 @@ html::-webkit-scrollbar {
 .foliage {
   opacity:.78
 }
+.booking {
+  height:auto;
+  min-height:calc(190 * var(--unit));
+  padding-block:calc(24 * var(--unit));
+}
+.booking-inner > * { min-width:0; }
+.contact-panel {
+  border-left:1px solid #bac6b04d;
+  padding-left:calc(22 * var(--unit));
+  scroll-margin-top:24px;
+}
+.write-us {
+  display:inline-flex;
+  align-items:center;
+  gap:calc(9 * var(--unit));
+  font-size:calc(11 * var(--unit));
+  margin-bottom:calc(10 * var(--unit));
+}
+.write-us .icon {
+  width:calc(18 * var(--unit));
+  height:calc(18 * var(--unit));
+}
+.copy-phone {
+  display:block;
+  padding:0;
+  border:0;
+  background:none;
+  color:#f8f7ee;
+  font-size:calc(13 * var(--unit));
+  font-weight:600;
+  line-height:1.6;
+  white-space:nowrap;
+}
+.copy-phone:hover, .write-us:hover { color:var(--accent); }
+.social-links {
+  display:flex;
+  flex-wrap:nowrap;
+  align-items:center;
+  gap:calc(8 * var(--unit));
+  margin-top:calc(10 * var(--unit));
+}
+.social-links a {
+  display:grid;
+  place-items:center;
+  width:calc(34 * var(--unit));
+  height:calc(34 * var(--unit));
+  flex-shrink:0;
+  border:1px solid #d1d8c74d;
+  border-radius:50%;
+  color:#eef1e6;
+  background:#ffffff08;
+  transition:background .2s, border-color .2s;
+}
+.social-links a:hover { background:#8ac65329; border-color:var(--accent); }
+.social-links .icon { width:calc(18 * var(--unit)); height:calc(18 * var(--unit)); }
+.copy-status {
+  display:block;
+  min-height:calc(14 * var(--unit));
+  margin-top:calc(5 * var(--unit));
+  color:#c0db9f;
+  font-size:calc(9 * var(--unit));
+  line-height:1.4;
+}
+@media(max-width:600px) {
+  .booking { padding-block:34px; }
+  .contact-panel { border-left:0; border-top:1px solid #bac6b04d; padding:24px 0 0; }
+  .write-us { font-size:15px; min-height:32px; margin-bottom:8px; }
+  .write-us .icon { width:22px; height:22px; }
+  .copy-phone { font-size:21px; min-height:44px; }
+  .social-links { gap:12px; margin-top:14px; }
+  .social-links a { width:46px; height:46px; }
+  .social-links .icon { width:23px; height:23px; }
+  .copy-status { font-size:12px; min-height:18px; margin-top:9px; }
+}
 @media(prefers-reduced-motion:reduce) {
   html {
     scroll-behavior:auto

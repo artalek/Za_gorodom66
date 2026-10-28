@@ -1,6 +1,3 @@
-// Set a real booking URL here when the contact details are available.
-const BOOKING_URL = '';
-
 const menuToggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.navigation');
 function closeMenu() {
@@ -16,14 +13,6 @@ menuToggle.addEventListener('click', () => {
 });
 navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
-const bookingDialog = document.querySelector('#booking-dialog');
-document.querySelectorAll('[data-booking]').forEach(button => {
-  button.addEventListener('click', () => {
-    closeMenu();
-    if (BOOKING_URL) { window.location.assign(BOOKING_URL); return; }
-    bookingDialog.showModal();
-  });
-});
 document.querySelectorAll('dialog').forEach(dialog => {
   dialog.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => {
@@ -31,7 +20,6 @@ document.querySelectorAll('dialog').forEach(dialog => {
     if (event.target === dialog && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) dialog.close();
   });
 });
-document.querySelector('.dialog-dismiss').addEventListener('click', () => bookingDialog.close());
 const photoDialog = document.querySelector('#photo-dialog');
 document.querySelectorAll('[data-photo]').forEach(link => {
   link.addEventListener('click', event => {
@@ -41,4 +29,32 @@ document.querySelectorAll('[data-photo]').forEach(link => {
     image.alt = link.querySelector('img').alt;
     photoDialog.showModal();
   });
+});
+
+const phoneButton = document.querySelector('[data-copy-phone]');
+const copyStatus = document.querySelector('.copy-status');
+let copyStatusTimer;
+
+phoneButton.addEventListener('click', async () => {
+  const phone = phoneButton.dataset.copyPhone;
+  let copied = false;
+  try {
+    await navigator.clipboard.writeText(phone);
+    copied = true;
+  } catch {
+    // Fallback for browsers without the Clipboard API.
+    const field = document.createElement('textarea');
+    field.value = phone;
+    field.setAttribute('readonly', '');
+    field.style.cssText = 'position:fixed;left:-9999px;top:0';
+    document.body.append(field);
+    field.select();
+    field.setSelectionRange(0, phone.length);
+    try { copied = document.execCommand('copy'); } catch { copied = false; }
+    field.remove();
+    phoneButton.focus({ preventScroll: true });
+  }
+  clearTimeout(copyStatusTimer);
+  copyStatus.textContent = copied ? 'Номер скопирован' : 'Не удалось скопировать: +7 922 227-33-31';
+  copyStatusTimer = setTimeout(() => { copyStatus.textContent = ''; }, 4000);
 });
