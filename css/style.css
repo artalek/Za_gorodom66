@@ -878,6 +878,55 @@ html::-webkit-scrollbar {
   .social-links .icon { width:23px; height:23px; }
   .copy-status { font-size:12px; min-height:18px; margin-top:9px; }
 }
+/* These sections grow with the detailed descriptions. */
+.advantages {
+  height:auto;
+  min-height:calc(145 * var(--unit));
+}
+.terrace {
+  height:auto;
+  min-height:calc(335 * var(--unit));
+}
+.terrace-photo {
+  position:relative;
+  height:auto;
+}
+.terrace-photo img {
+  position:absolute;
+  inset:0;
+}
+.interior {
+  height:auto;
+  min-height:calc(350 * var(--unit));
+  grid-template-columns:52% 48%;
+}
+.interior .bedroom-photo {
+  position:relative;
+  height:auto;
+}
+.interior .bedroom-photo img {
+  position:absolute;
+  inset:0;
+}
+.interior-details {
+  margin:calc(12 * var(--unit)) 0 0;
+  padding-left:calc(17 * var(--unit));
+  font-size:calc(11.6 * var(--unit));
+  line-height:1.5;
+  color:#29362b;
+}
+.interior-details li + li { margin-top:calc(9 * var(--unit)); }
+.interior-details li::marker { color:var(--green); }
+.interior-details strong { font-weight:700; }
+@media(max-width:600px) {
+  .advantages { min-height:0; }
+  .terrace { min-height:0; }
+  .terrace-photo { height:290px; }
+  .interior { grid-template-columns:1fr; min-height:0; }
+  .interior .bedroom-photo { height:350px; }
+  .interior-details { font-size:14px; line-height:1.6; padding-left:18px; margin-top:18px; }
+  .interior-details li + li { margin-top:14px; }
+}
 @media(prefers-reduced-motion:reduce) {
   html {
     scroll-behavior:auto
