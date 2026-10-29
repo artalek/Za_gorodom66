@@ -35,7 +35,7 @@ const phoneButton = document.querySelector('[data-copy-phone]');
 const copyStatus = document.querySelector('.copy-status');
 let copyStatusTimer;
 
-phoneButton.addEventListener('click', async () => {
+phoneButton?.addEventListener('click', async () => {
   const phone = phoneButton.dataset.copyPhone;
   let copied = false;
   try {

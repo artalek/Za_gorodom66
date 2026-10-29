@@ -1,0 +1,682 @@
+[
+  {
+    "id": "vat",
+    "title": "Чан",
+    "folder": "01 Чан",
+    "photos": [
+      {
+        "source": "IMG20240612160122.jpg",
+        "src": "assets/images/gallery/vat-01.webp",
+        "small": "assets/images/gallery/vat-01-small.webp",
+        "thumbnail": "assets/images/gallery/vat-01-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240612161200.jpg",
+        "src": "assets/images/gallery/vat-02.webp",
+        "small": "assets/images/gallery/vat-02-small.webp",
+        "thumbnail": "assets/images/gallery/vat-02-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "photo_2026-10-29_12-54-42.jpg",
+        "src": "assets/images/gallery/vat-03.webp",
+        "small": "assets/images/gallery/vat-03-small.webp",
+        "thumbnail": "assets/images/gallery/vat-03-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      }
+    ]
+  },
+  {
+    "id": "sauna",
+    "title": "Баня",
+    "folder": "02 Баня",
+    "photos": [
+      {
+        "source": "IMG20240512165632.jpg",
+        "src": "assets/images/gallery/sauna-01.webp",
+        "small": "assets/images/gallery/sauna-01-small.webp",
+        "thumbnail": "assets/images/gallery/sauna-01-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240512172203.jpg",
+        "src": "assets/images/gallery/sauna-02.webp",
+        "small": "assets/images/gallery/sauna-02-small.webp",
+        "thumbnail": "assets/images/gallery/sauna-02-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0638.JPG",
+        "src": "assets/images/gallery/sauna-03.webp",
+        "small": "assets/images/gallery/sauna-03-small.webp",
+        "thumbnail": "assets/images/gallery/sauna-03-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0646.JPG",
+        "src": "assets/images/gallery/sauna-04.webp",
+        "small": "assets/images/gallery/sauna-04-small.webp",
+        "thumbnail": "assets/images/gallery/sauna-04-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      }
+    ]
+  },
+  {
+    "id": "living",
+    "title": "Гостиная",
+    "folder": "03 Дом/01 Гостиная",
+    "photos": [
+      {
+        "source": "IMG20240408211340.jpg",
+        "src": "assets/images/gallery/living-01.webp",
+        "small": "assets/images/gallery/living-01-small.webp",
+        "thumbnail": "assets/images/gallery/living-01-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240408220720.jpg",
+        "src": "assets/images/gallery/living-02.webp",
+        "small": "assets/images/gallery/living-02-small.webp",
+        "thumbnail": "assets/images/gallery/living-02-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240430121331.jpg",
+        "src": "assets/images/gallery/living-03.webp",
+        "small": "assets/images/gallery/living-03-small.webp",
+        "thumbnail": "assets/images/gallery/living-03-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240430121344.jpg",
+        "src": "assets/images/gallery/living-04.webp",
+        "small": "assets/images/gallery/living-04-small.webp",
+        "thumbnail": "assets/images/gallery/living-04-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240430121418.jpg",
+        "src": "assets/images/gallery/living-05.webp",
+        "small": "assets/images/gallery/living-05-small.webp",
+        "thumbnail": "assets/images/gallery/living-05-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240430121440.jpg",
+        "src": "assets/images/gallery/living-06.webp",
+        "small": "assets/images/gallery/living-06-small.webp",
+        "thumbnail": "assets/images/gallery/living-06-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240430122649.jpg",
+        "src": "assets/images/gallery/living-07.webp",
+        "small": "assets/images/gallery/living-07-small.webp",
+        "thumbnail": "assets/images/gallery/living-07-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240615135524.jpg",
+        "src": "assets/images/gallery/living-08.webp",
+        "small": "assets/images/gallery/living-08-small.webp",
+        "thumbnail": "assets/images/gallery/living-08-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_3763.jpg",
+        "src": "assets/images/gallery/living-09.webp",
+        "small": "assets/images/gallery/living-09-small.webp",
+        "thumbnail": "assets/images/gallery/living-09-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_3766.jpg",
+        "src": "assets/images/gallery/living-10.webp",
+        "small": "assets/images/gallery/living-10-small.webp",
+        "thumbnail": "assets/images/gallery/living-10-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_3776.jpg",
+        "src": "assets/images/gallery/living-11.webp",
+        "small": "assets/images/gallery/living-11-small.webp",
+        "thumbnail": "assets/images/gallery/living-11-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_3787.jpg",
+        "src": "assets/images/gallery/living-12.webp",
+        "small": "assets/images/gallery/living-12-small.webp",
+        "thumbnail": "assets/images/gallery/living-12-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_3791.jpg",
+        "src": "assets/images/gallery/living-13.webp",
+        "small": "assets/images/gallery/living-13-small.webp",
+        "thumbnail": "assets/images/gallery/living-13-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_3797.jpg",
+        "src": "assets/images/gallery/living-14.webp",
+        "small": "assets/images/gallery/living-14-small.webp",
+        "thumbnail": "assets/images/gallery/living-14-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_4068.jpg",
+        "src": "assets/images/gallery/living-15.webp",
+        "small": "assets/images/gallery/living-15-small.webp",
+        "thumbnail": "assets/images/gallery/living-15-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      }
+    ]
+  },
+  {
+    "id": "bedroom",
+    "title": "Спальня",
+    "folder": "03 Дом/02 Спальня",
+    "photos": [
+      {
+        "source": "IMG20240518174105.jpg",
+        "src": "assets/images/gallery/bedroom-01.webp",
+        "small": "assets/images/gallery/bedroom-01-small.webp",
+        "thumbnail": "assets/images/gallery/bedroom-01-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0203.JPG",
+        "src": "assets/images/gallery/bedroom-02.webp",
+        "small": "assets/images/gallery/bedroom-02-small.webp",
+        "thumbnail": "assets/images/gallery/bedroom-02-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0204.JPG",
+        "src": "assets/images/gallery/bedroom-03.webp",
+        "small": "assets/images/gallery/bedroom-03-small.webp",
+        "thumbnail": "assets/images/gallery/bedroom-03-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0207.JPG",
+        "src": "assets/images/gallery/bedroom-04.webp",
+        "small": "assets/images/gallery/bedroom-04-small.webp",
+        "thumbnail": "assets/images/gallery/bedroom-04-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0208.JPG",
+        "src": "assets/images/gallery/bedroom-05.webp",
+        "small": "assets/images/gallery/bedroom-05-small.webp",
+        "thumbnail": "assets/images/gallery/bedroom-05-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      }
+    ]
+  },
+  {
+    "id": "bathrooms",
+    "title": "Санузлы",
+    "folder": "03 Дом/03 Санузлы",
+    "photos": [
+      {
+        "source": "IMG20240429171640.jpg",
+        "src": "assets/images/gallery/bathrooms-01.webp",
+        "small": "assets/images/gallery/bathrooms-01-small.webp",
+        "thumbnail": "assets/images/gallery/bathrooms-01-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240518175056.jpg",
+        "src": "assets/images/gallery/bathrooms-02.webp",
+        "small": "assets/images/gallery/bathrooms-02-small.webp",
+        "thumbnail": "assets/images/gallery/bathrooms-02-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0209.JPG",
+        "src": "assets/images/gallery/bathrooms-03.webp",
+        "small": "assets/images/gallery/bathrooms-03-small.webp",
+        "thumbnail": "assets/images/gallery/bathrooms-03-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0213.JPG",
+        "src": "assets/images/gallery/bathrooms-04.webp",
+        "small": "assets/images/gallery/bathrooms-04-small.webp",
+        "thumbnail": "assets/images/gallery/bathrooms-04-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0215.JPG",
+        "src": "assets/images/gallery/bathrooms-05.webp",
+        "small": "assets/images/gallery/bathrooms-05-small.webp",
+        "thumbnail": "assets/images/gallery/bathrooms-05-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0225.JPG",
+        "src": "assets/images/gallery/bathrooms-06.webp",
+        "small": "assets/images/gallery/bathrooms-06-small.webp",
+        "thumbnail": "assets/images/gallery/bathrooms-06-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_0227.JPG",
+        "src": "assets/images/gallery/bathrooms-07.webp",
+        "small": "assets/images/gallery/bathrooms-07-small.webp",
+        "thumbnail": "assets/images/gallery/bathrooms-07-thumb.webp",
+        "width": 960,
+        "height": 1280,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      }
+    ]
+  },
+  {
+    "id": "bbq",
+    "title": "Мангальная зона",
+    "folder": "04 Мангальная зона",
+    "photos": [
+      {
+        "source": "IMG20240430144832.jpg",
+        "src": "assets/images/gallery/bbq-01.webp",
+        "small": "assets/images/gallery/bbq-01-small.webp",
+        "thumbnail": "assets/images/gallery/bbq-01-thumb.webp",
+        "width": 1600,
+        "height": 1200,
+        "smallWidth": 800,
+        "smallHeight": 600,
+        "thumbWidth": 240,
+        "thumbHeight": 180
+      },
+      {
+        "source": "IMG_8576.jpg",
+        "src": "assets/images/gallery/bbq-02.webp",
+        "small": "assets/images/gallery/bbq-02-small.webp",
+        "thumbnail": "assets/images/gallery/bbq-02-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_8578.jpg",
+        "src": "assets/images/gallery/bbq-03.webp",
+        "small": "assets/images/gallery/bbq-03-small.webp",
+        "thumbnail": "assets/images/gallery/bbq-03-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      }
+    ]
+  },
+  {
+    "id": "nature",
+    "title": "Природа",
+    "folder": "05 Природа",
+    "photos": [
+      {
+        "source": "IMG_8621.jpg",
+        "src": "assets/images/gallery/nature-01.webp",
+        "small": "assets/images/gallery/nature-01-small.webp",
+        "thumbnail": "assets/images/gallery/nature-01-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_8639.jpg",
+        "src": "assets/images/gallery/nature-02.webp",
+        "small": "assets/images/gallery/nature-02-small.webp",
+        "thumbnail": "assets/images/gallery/nature-02-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_8643.jpg",
+        "src": "assets/images/gallery/nature-03.webp",
+        "small": "assets/images/gallery/nature-03-small.webp",
+        "thumbnail": "assets/images/gallery/nature-03-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      }
+    ]
+  },
+  {
+    "id": "details",
+    "title": "Разные фото дома",
+    "folder": "06 Разные фото дома",
+    "photos": [
+      {
+        "source": "IMG20240615131957.jpg",
+        "src": "assets/images/gallery/details-01.webp",
+        "small": "assets/images/gallery/details-01-small.webp",
+        "thumbnail": "assets/images/gallery/details-01-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240615132450.jpg",
+        "src": "assets/images/gallery/details-02.webp",
+        "small": "assets/images/gallery/details-02-small.webp",
+        "thumbnail": "assets/images/gallery/details-02-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240615132540.jpg",
+        "src": "assets/images/gallery/details-03.webp",
+        "small": "assets/images/gallery/details-03-small.webp",
+        "thumbnail": "assets/images/gallery/details-03-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240615133109.jpg",
+        "src": "assets/images/gallery/details-04.webp",
+        "small": "assets/images/gallery/details-04-small.webp",
+        "thumbnail": "assets/images/gallery/details-04-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG20240615134420.jpg",
+        "src": "assets/images/gallery/details-05.webp",
+        "small": "assets/images/gallery/details-05-small.webp",
+        "thumbnail": "assets/images/gallery/details-05-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_3934.JPG",
+        "src": "assets/images/gallery/details-06.webp",
+        "small": "assets/images/gallery/details-06-small.webp",
+        "thumbnail": "assets/images/gallery/details-06-thumb.webp",
+        "width": 900,
+        "height": 1600,
+        "smallWidth": 450,
+        "smallHeight": 800,
+        "thumbWidth": 135,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_8574.jpg",
+        "src": "assets/images/gallery/details-07.webp",
+        "small": "assets/images/gallery/details-07-small.webp",
+        "thumbnail": "assets/images/gallery/details-07-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_8579.jpg",
+        "src": "assets/images/gallery/details-08.webp",
+        "small": "assets/images/gallery/details-08-small.webp",
+        "thumbnail": "assets/images/gallery/details-08-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_8580.jpg",
+        "src": "assets/images/gallery/details-09.webp",
+        "small": "assets/images/gallery/details-09-small.webp",
+        "thumbnail": "assets/images/gallery/details-09-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_8581.jpg",
+        "src": "assets/images/gallery/details-10.webp",
+        "small": "assets/images/gallery/details-10-small.webp",
+        "thumbnail": "assets/images/gallery/details-10-thumb.webp",
+        "width": 1200,
+        "height": 1600,
+        "smallWidth": 600,
+        "smallHeight": 800,
+        "thumbWidth": 180,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_9150.jpg",
+        "src": "assets/images/gallery/details-11.webp",
+        "small": "assets/images/gallery/details-11-small.webp",
+        "thumbnail": "assets/images/gallery/details-11-thumb.webp",
+        "width": 900,
+        "height": 1600,
+        "smallWidth": 450,
+        "smallHeight": 800,
+        "thumbWidth": 135,
+        "thumbHeight": 240
+      },
+      {
+        "source": "IMG_9152.jpg",
+        "src": "assets/images/gallery/details-12.webp",
+        "small": "assets/images/gallery/details-12-small.webp",
+        "thumbnail": "assets/images/gallery/details-12-thumb.webp",
+        "width": 900,
+        "height": 1600,
+        "smallWidth": 450,
+        "smallHeight": 800,
+        "thumbWidth": 135,
+        "thumbHeight": 240
+      }
+    ]
+  }
+]
